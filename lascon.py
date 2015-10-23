@@ -40,7 +40,7 @@ class Testing(unittest.TestCase):
             try:
                     alert = driver.switch_to_alert()
                     msg = alert.text
-                    if msg in elem:
+                    if  msg in p:
                         parser.parse(False, p)
                     else:
                         parser.parse(True, p)
